@@ -1,4 +1,4 @@
-# Exercitiu 1
+# Exercitiul 1
 
 | Termen | Definitie |
 |---	|---	|
@@ -10,7 +10,7 @@
 
 
 
-# Exercitiu 3
+# Exercitiul 3
 #### Considerați ziua în care v-ați născut la care adăugați valoarea 10. Transformați în binar această valoare. Faceți transformarea inversă.
 
 zi = 13  
@@ -55,7 +55,7 @@ binar = 0001 0010 0011 0100
 
 
 
-# Exercitiu 4
+# Exercitiul 4
 #### Considerați prenumele dumneavoastră, scris cu majuscule. Ce îi corespunde conform codificării ASCII?
 
 prenume = SEBASTIAN-STEFAN  
@@ -82,8 +82,31 @@ F = 70
 => string = BRAVO
 
 
-# Exercitiu 5
+# Exercitiul 5
 #### Considerați numele dumneavoastră, scris cu majuscule. Ce îi corespunde conform codificării Base64?
 
+nume = MIHALACHE  
+Transformare in Base64 = TUlIQUxBQ0hF  
+
 #### Se consideră codificarea Base64 dată de string-ul următor: U3VudCBzdHVkZW50IGxhIEZNSS4=. Ce îi corespunde?
+
+Base64 = U3VudCBzdHVkZW50IGxhIEZNSS4=  
+Transformare in string ASCII = Sunt student la FMI.
+
+
+# Exercitiul 6
+#### malware, virus, dropper, downloader, trojan, spyware, riskware, ransomware, adware, worm, obfuscare
+
+- malware = Orice tip de software malițios creat pentru a afecta negativ un sistem  
+- virus = Un tip de malware care se atașează la fișiere legitime și se răspândește prin execuția acestora  
+- dropper = Un program malițios care nu conține direct malware, dar îl descarcă și îl instalează pe dispozitivul infectat  
+- downloader = Similar cu un dropper, dar funcționează prin descărcarea malware-ului de pe internet după ce a fost executat
+- trojan = Un program care pare legitim, dar conține funcționalități ascunse și malițioase
+- spyware = Malware conceput pentru a spiona activitatea utilizatorului și a colecta informații fără permisiune
+- riskware = Software potențial periculos care poate fi folosit abuziv
+- ransomware = Malware care blochează accesul la fișiere sau sistem și cere o răscumpărare pentru deblocare
+- adware = Software care afișează reclame intruzive, de obicei fără consimțământul utilizatorului
+- worm = Un tip de malware care se răspândește automat prin rețele, fără a necesita intervenția utilizatorului
+- obfuscare = Tehnică folosită pentru a ascunde codul sursă sau scopul unui malware, îngreunând detectarea acestuia
+
 
