@@ -83,6 +83,12 @@ F = 70
 
 
 # Exercitiul 5
+
+- convertim caracterele in format ASCII
+- convertim numarul in binar
+- impartim in bucati de cate 6 biti
+- in functie de numar alegem maparea din Base64 = A-Za-z0-9+/=
+
 #### Considerați numele dumneavoastră, scris cu majuscule. Ce îi corespunde conform codificării Base64?
 
 nume = MIHALACHE  

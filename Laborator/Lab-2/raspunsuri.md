@@ -59,5 +59,5 @@ $$ 2^{512} $$
 $$TimpulMaxim=\frac{2^{512}}{2^{30}} = 2^{482} secunde$$
 
 • Considerați că este un atac eficient?  
-Nu este eficient pentru necesita foarte mult timp
+Nu este eficient pentru ca necesita foarte mult timp
 
