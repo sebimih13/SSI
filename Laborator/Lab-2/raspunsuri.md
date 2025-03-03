@@ -27,6 +27,8 @@ Primitive criptografice pentru **integritate**:
 
 # Exercitiul 3
 
+Adversar Probabilistic Polinomial în Timp (PPT)
+
 1. Un adversar care are la dispoziție un timp infinit pentru criptanaliza unui sistem este un adversar PPT. **=> FALS**
 2. Un adversar PPT are dreptul de a „ghici” cheia. **=> ADEVARAT**
 3. Un adversar PPT are la dispoziție algoritmi exponențiali în timp. **=> FALS**
