@@ -18,12 +18,67 @@
 
 
 # Exercitiul 1.3
-TODO
+
+- Daca lungimea cheii este diferita de lungimea mesajului, se pierde informatie la criptare/decriptare.
+- Daca atacatorul stie mesajul criptat si necriptat, atunci poate afla cheia, cu care poate sa decripteze orice mesaj criptat cu aceasta.
 
 # Exercitiul 2
 
-1. TODO
-2. TODO
+### 1. Un sistem istoric de criptare ce foloseste metoda substitutiei este Cifrul lui Cezar. 
+
+In criptare toate literele din alfabet sunt deplasate cu un pas constant la stanga sau la dreapta. 
+
+Sistemul este foarte slab, deoarece exista doar 25 de deplasari distincte posibile (daca dimensiunea alfabetului este 26), iar acestea pot fi sparte cu forta bruta.
+
+**Exemplu de criptare:**  
+Luam pasul de deplasare la dreapta de K = 1
+
+SEB => TFC
+
+**Exemplu de decriptare:**  
+Se realizeaza operatia inversa a criptarii => K' = -1
+
+TFC -> SEB
+
+### 2. Un sistem istoric de criptare ce foloseste metoda transpozitiei este Cifrul Columnar
+
+Acest cifru rearanjează literele mesajului într-un tabel conform unei chei, fără a le înlocui cu alte caractere.
+
+**Exemplu de criptare:**  
+
+mesaj = "EXAMEN"
+cheia = 312
+
+| 3 | 1 | 2 |
+| - | - | - |
+| E | X | A |
+| M | E | N |
+
+| 1 | 2 | 3 |
+| - | - | - |
+| X | A | E |
+| E | N | M |
+
+=> mesaj criptat = "XAEENM"
+
+**Exemplu de decriptare:**  
+
+mesaj criptat = "XAEENM"  
+cheia = 312  
+
+| 1 | 2 | 3 |
+| - | - | - |
+| X | A | E |
+| E | N | M |
+
+| 3 | 1 | 2 |
+| - | - | - |
+| E | X | A |
+| M | E | N |
+
+=> mesaj decriptat = "EXAMEN"  
+
+Sistemul este foarte slab, deoarece este suficient sa gasesti un rand corect, sau un cuvant pentru a sparge intregul mesajul. 
 
 # Exercitiul 3
 
@@ -114,4 +169,30 @@ int main()
 ```
 
 # Exercitiul 4
-TODO
+
+![alt text](image.png)
+
+Cheia pentru 1 mai 1941: 
+
+V I IV | 16 12 25 | AU BY CH DQ EF IO JN KL MR PW | WZA HGK FOB FGM
+
+**CRIPTARE**
+
+SEB -> QQX
+
+![alt text](image-1.png)
+
+**DECRIPTARE**
+
+QQX -> SEB
+
+![alt text](image-2.png)
+
+Mereu pornim de la aceeasi configuratie. Operatia de criptare/decriptare este inversabila.
+
+#### 5. Puteți da un exemplu de text criptat de aceeași lungime care în mod clar nu ar putea fi criptarea numelui? Cum ați gândit?
+
+Un exemplu de text ce nu poate fi criptarea mesajului original (SEB) este SQX, deoarece prima litera din mesajul criptat si decriptat sunt egale.  
+
+Masina Enigma are vulnerabilitatea ca o litera din mesajul necriptat nu o sa fie niciodata criptata intr-o aceeasi litera.
+
