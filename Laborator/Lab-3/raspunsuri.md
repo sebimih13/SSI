@@ -85,6 +85,10 @@ Sistemul este foarte slab, deoarece este suficient sa gasesti un rand corect, sa
 
 # Exercitiul 3
 
+- cuvinte cu putine litere 
+- frecventa cuvintelor, daca sunt indepdente/prefix/sufix
+- frecenta literelor, in engleza cele mai compune sunt A, E, T
+
 **Noul alfabet:**  
 A = u  
 B = w  
