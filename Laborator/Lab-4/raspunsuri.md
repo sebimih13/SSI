@@ -21,8 +21,20 @@
 # Exercitiul 3
 
 SPF = Sender Policy Framework  
+- Este un mecanism care permite unui domeniu să specifice ce servere de e-mail au permisiunea de a trimite mesaje în numele său.
+- Funcționează printr-un înregistrare DNS TXT care conține o listă de IP-uri sau domenii autorizate.  
+
 DKIM = DomainKeys Identified Mail  
+- Permite unui domeniu să semneze criptografic e-mailurile, asigurând că acestea nu au fost modificate pe parcurs.
+- Se generează o pereche de chei (publică și privată). Cheia privată este utilizată pentru a semna mesajele, iar cheia publică este publicată în DNS pentru verificare.
+
 DMARC = Domain-based Message Authentication, Reporting and Conformance  
+- Este un mecanism care combină SPF și DKIM pentru a defini o politică de protecție împotriva e-mailurilor false.
+- Permite unui domeniu să specifice ce se întâmplă cu e-mailurile care nu trec verificările SPF și DKIM (le respinge, le marchează ca suspecte sau le acceptă).
+
+**SPF** verifică cine are voie să trimită emailuri.  
+**DKIM** verifică dacă emailul nu a fost modificat.  
+**DMARC** definește o politică de protecție și permite raportarea abuzurilor.  
 
 ### Ce beneficii ati obtine daca atacul ar fi cu succes?
 - Date personale sensibile: nume, prenume, IBAN, bani, adresa

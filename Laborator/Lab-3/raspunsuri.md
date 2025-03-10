@@ -20,7 +20,8 @@
 # Exercitiul 1.3
 
 - Daca lungimea cheii este diferita de lungimea mesajului, se pierde informatie la criptare/decriptare.
-- Daca atacatorul stie mesajul criptat si necriptat, atunci poate afla cheia, cu care poate sa decripteze orice mesaj criptat cu aceasta.
+- Generarea unei chei cu adevarat random
+- Daca atacatorul stie mesajul criptat si necriptat, atunci poate afla cheia, cu care poate sa decripteze orice mesaj criptat ulterior
 
 # Exercitiul 2
 
