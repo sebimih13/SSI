@@ -1,6 +1,8 @@
 # Exercitiul 1.1
 
-[raspuns](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)XOR(%7B'option':'Hex','string':'ecb181a479a6121add5b42264db9b44b4b48d7d93c62c56a3c3e1aba64c7517a90ed44f8919484b6ed8acc4670db62c249b9f5bada4ed474c9e4d111308b614788cd4fbdc1e949c1629e12fa5fdbd9'%7D,'Standard',false)&input=bzkva2hDM1BmMy85Q3lOQ2JkekhQeTVvb3JjY0Vhd1pTRnQzbWdDaWNSbmloRFNNOE9iaGxwM3Z2aUFWdUJiaU90Q1N6Nmh1c0JXcWhmRjBRLzhFWis2aUk5S3lnRDNoQWZGZ256eXY5dz09&ieol=CRLF&oeol=VT)
+`One Time Pad este un sistem de criptare perfect sigur daca este folosit corect.`
+
+[rezolvare](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)XOR(%7B'option':'Hex','string':'ecb181a479a6121add5b42264db9b44b4b48d7d93c62c56a3c3e1aba64c7517a90ed44f8919484b6ed8acc4670db62c249b9f5bada4ed474c9e4d111308b614788cd4fbdc1e949c1629e12fa5fdbd9'%7D,'Standard',false)&input=bzkva2hDM1BmMy85Q3lOQ2JkekhQeTVvb3JjY0Vhd1pTRnQzbWdDaWNSbmloRFNNOE9iaGxwM3Z2aUFWdUJiaU90Q1N6Nmh1c0JXcWhmRjBRLzhFWis2aUk5S3lnRDNoQWZGZ256eXY5dz09&ieol=CRLF&oeol=VT)
 
 # Exercitiul 1.2
 
@@ -20,7 +22,7 @@
 # Exercitiul 1.3
 
 - Daca lungimea cheii este diferita de lungimea mesajului, se pierde informatie la criptare/decriptare.
-- Generarea unei chei cu adevarat random
+- Generarea unei chei cu adevarat random este problematica
 - Daca atacatorul stie mesajul criptat si necriptat, atunci poate afla cheia, cu care poate sa decripteze orice mesaj criptat ulterior
 
 # Exercitiul 2
