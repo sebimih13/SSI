@@ -137,3 +137,90 @@ OrgNOCRef:    https://whois.arin.net/rest/poc/AANO1-ARIN
 
 ![alt text](image-2.png)
 
+## Mesaj de phishing
+
+![alt text](image-3.png)
+
+**Analiza header**
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+```
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '185.4.132.0 - 185.4.132.255'
+
+% Abuse contact for '185.4.132.0 - 185.4.132.255' is 'abuse@papaki.gr'
+
+inetnum:        185.4.132.0 - 185.4.132.255
+netname:        TOPHOST-VPS-GR-1
+descr:          Top.Host VPS Servers Greece
+country:        GR
+geoloc:         37.9013456 23.8722331
+language:       EL
+admin-c:        ENAM1-RIPE
+tech-c:         ENAN1-RIPE
+status:         ASSIGNED PA
+mnt-by:         TOPHOSTGR-MNT
+mnt-by:         PAPAKI-MNT
+created:        2019-10-08T08:20:03Z
+last-modified:  2021-04-22T09:27:15Z
+source:         RIPE
+
+role:           Enartia Management
+org:            ORG-PL286-RIPE
+remarks:        +-------------------------+
+remarks:        | Enartia S.A. Management |
+remarks:        +-------------------------+
+address:        STEP C / FORTH N. Plastira 100 Vassilika Vouton
+address:        70013, Heraklion
+address:        Greece
+admin-c:        EIT14-RIPE
+admin-c:        KD3371-RIPE
+admin-c:        EIT14-RIPE
+nic-hdl:        ENAM1-RIPE
+mnt-by:         PAPAKI-MNT
+created:        2019-10-23T07:27:04Z
+last-modified:  2021-04-22T09:31:13Z
+source:         RIPE # Filtered
+
+role:           Enartia NOC
+org:            ORG-PL286-RIPE
+remarks:        +------------------+
+remarks:        | Enartia S.A. NOC |
+remarks:        +------------------+
+address:        STEP C / FORTH N. Plastira 100 Vassilika Vouton
+address:        70013, Heraklion
+address:        Greece
+admin-c:        EIT14-RIPE
+tech-c:         KD3504-RIPE
+tech-c:         EIT14-RIPE
+nic-hdl:        ENAN1-RIPE
+mnt-by:         TOPHOSTGR-MNT
+mnt-by:         PAPAKI-MNT
+created:        2019-10-23T07:31:52Z
+last-modified:  2021-04-22T09:37:42Z
+source:         RIPE # Filtered
+
+% Information related to '185.4.132.0/24AS199246'
+
+route:          185.4.132.0/24
+origin:         AS199246
+descr:          Top.Host PA (1/4 /24)
+mnt-by:         TOPHOSTGR-MNT
+mnt-by:         ENARTIA-INFRA-MNT
+created:        2019-07-25T09:08:35Z
+last-modified:  2021-07-07T08:19:32Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.103 (WAGYU)
+```
