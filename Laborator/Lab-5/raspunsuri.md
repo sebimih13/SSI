@@ -1,3 +1,5 @@
+[Link scripts](https://replit.com/@sebimih1234/MoccasinFakeFiber#index.js)
+
 # Exercitiul 1
 ## a)
 
