@@ -12,7 +12,7 @@
 [calcul](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')&input=T3JpY2UgdGV4dCBjbGFyIHBvYXRlIG9idGludXQgZGludHItdW4gdGV4dCBjcmlwdGF0IGN1IE9UUCBkYXIgY3UgYWx0YSBjaGVpZS4u)
 
 ## Interpretare 2
-```Orice text clar poate obtinut dintr-un text criptat cu OTP dar cu alta cheie..<space>``` cu un space la sfarsit, are in Base64 lungimea 106
+```Orice text clar poate obtinut dintr-un text criptat cu OTP dar cu alta cheie..<space>``` cu un space la sfarsit, are in Base64 lungimea 108
 
 [rezolvare](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)XOR(%7B'option':'UTF8','string':'Orice%20text%20clar%20poate%20obtinut%20dintr-un%20text%20criptat%20cu%20OTP%20dar%20cu%20alta%20cheie..%20'%7D,'Standard',false)To_Hex('None',0)&input=bzkva2hDM1BmMy85Q3lOQ2JkekhQeTVvb3JjY0Vhd1pTRnQzbWdDaWNSbmloRFNNOE9iaGxwM3Z2aUFWdUJiaU90Q1N6Nmh1c0JXcWhmRjBRLzhFWis2aUk5S3lnRDNoQWZGZ256eXY5dz09&ieol=CRLF&oeol=CR)
 
