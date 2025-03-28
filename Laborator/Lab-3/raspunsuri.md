@@ -195,7 +195,7 @@ QQX -> SEB
 
 ![alt text](image-2.png)
 
-Mereu pornim de la aceeasi configuratie. Operatia de criptare/decriptare este inversabila.
+Mereu pornim de la aceeasi configuratie. Operatia de criptare/decriptare este simetrica.
 
 #### 5. Puteți da un exemplu de text criptat de aceeași lungime care în mod clar nu ar putea fi criptarea numelui? Cum ați gândit?
 
