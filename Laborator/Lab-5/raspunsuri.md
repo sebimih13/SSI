@@ -16,11 +16,16 @@
 
 ## c)
 ### Rezultat
+```
 Facultatea de Matematica si Informatica  
 Universitatea din Bucuresti  
 https://www.youtube.com/watch?v=HIcSWuKMwOw  
+var ascuns = "Mesaj ascuns: 18367622009998665"  
+```
 
 ![alt text](image.png)
+
+![alt text](image-2.png)
 
 ## d)
 
