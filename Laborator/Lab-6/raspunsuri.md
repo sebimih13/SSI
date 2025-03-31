@@ -16,9 +16,9 @@ except KeyboardInterrupt:
 ```
 
 ### Candidate 2:
-- nu cicleaza
+- overflow - nu mentine valorile intr-un interval
 - converge catre infinit 
-- Distributia numerelor este uniforma (multe numere nu vor aparea niciodata)
+- Distributia numerelor nu este uniforma (multe numere nu vor aparea niciodata)
 - Generarea numerelor este predictibila, este un sir strict crescator. Daca analizam putin numerele, putem sa intuim usor care este formula pentru generearea numerelor
 
 ```
