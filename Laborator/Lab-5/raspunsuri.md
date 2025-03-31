@@ -113,7 +113,7 @@ var JSZQ93 = CreateObject("WScript.Shell"),
 
 ## a)
 - Se foloseste de WScript pentru a putea compila un nou program, cu mai multe drepturi, pe care sa il ruleze ulterior
-- Creeaza un executabil, care foloseste libmingwex-0.dll 
+- Creeaza un executabil hello.exe, care foloseste libmingwex-0.dll 
 
 ## b)
 - Daca folosesc Cyberchef pot sa identific faptul ca tot payload-ul face parte dintr-un executabil, care ofera unui atacator oportunitati de a exploata vulnerabilitati
