@@ -3,7 +3,7 @@
 # Exercitiul 1
 ## a)
 
-- Ofuscare extremă a codului
+- Obfuscare extremă a codului
 - Construcția unui alfabet prin conversii implicite
 - Construirea unei instrucțiuni JavaScript valide
 - Cel mai probabil codul este rulat prin eval(), ceea ce înseamnă că scopul său final este să ruleze un alt cod JavaScript pe mașina utilizatorului
@@ -29,14 +29,14 @@ var ascuns = "Mesaj ascuns: 18367622009998665"
 
 ## d)
 
-- generat folosind un ofuscator automat: JJEncode, JSFuck
+- generat folosind un obfuscator automat: JJEncode, JSFuck
 
 # Exercitiul 2
 ## a)
 - codul rezultat rulează într-un mediu Windows Script Host (WScript), utilizând ActiveXObject pentru a interacționa cu sistemul de fișiere
 
 ## b)
-- cu toate ca este un script cu scop educational, si nu provoaca foarte multe pagube in sistem, poate fi considerat malware pentru ca are ofuscare intenționată
+- cu toate ca este un script cu scop educational, si nu provoaca foarte multe pagube in sistem, poate fi considerat malware pentru ca are obfuscare intenționată
 
 ```
 WScript.Echo("You have been hacked!");
@@ -113,7 +113,7 @@ var JSZQ93 = CreateObject("WScript.Shell"),
 
 ## a)
 - Se foloseste de WScript pentru a putea compila un nou program, cu mai multe drepturi, pe care sa il ruleze ulterior
-- Creeaza un executabil, care foloseste libmingwex-0.dll 
+- Creeaza un executabil hello.exe, care foloseste libmingwex-0.dll 
 
 ## b)
 - Daca folosesc Cyberchef pot sa identific faptul ca tot payload-ul face parte dintr-un executabil, care ofera unui atacator oportunitati de a exploata vulnerabilitati
