@@ -114,3 +114,10 @@ if detection_count is not None:
 
 
 # Exercitiul 4
+[codul sursa](ex-5.cpp)  
+[binar](SandBox-C++.exe)  
+
+![pestudio](image.png)
+![Epoch Convertor](image-1.png)
+![hexed.it](image-2.png)
+
